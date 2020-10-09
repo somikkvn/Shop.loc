@@ -5,9 +5,11 @@
 
 @section('main_content')
 
-<navbar-component></navbar-component>
+{{--<navbar-component></navbar-component>--}}
+{{--<massonry-component></massonry-component>--}}
+{{--<masonry></masonry>--}}
 
-<massonry-component></massonry-component>
+<script>
 
-
+</script>
 @endsection

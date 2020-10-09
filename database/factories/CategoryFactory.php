@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Factory;
 $factory->define(Category::class, function (Faker $faker) {
     return [
         'name' =>  $faker->name,
-        'code' => $faker->shuffleString(213),
+        'code' => $faker->randomElement($array = array ('tv', 'vacuum', 'kitchen', 'coffeemachine')),
         'description' => $faker->text(300),
         'price' => $faker->randomFloat(2, 999, 50000),
     ];

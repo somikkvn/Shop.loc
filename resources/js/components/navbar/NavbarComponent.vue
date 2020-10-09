@@ -1,5 +1,5 @@
 <template>
-    <header style="text-align: center" class="gradiant">
+    <header style="text-align: center" class="gradiant my-3">
         <div class="logo" :style="{ 'background-image': 'url(' + image + ')' }">
 
         </div>

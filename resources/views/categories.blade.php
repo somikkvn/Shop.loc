@@ -7,6 +7,10 @@
 
 <navbar-component></navbar-component>
 
-<massonry-component :categories="{{$categories}}"></massonry-component>
+{{--<massonry-component :categories="{{$categories}}"></massonry-component>--}}
 
+{{--<masonry></masonry>--}}
+
+{{--    <masonry-shop :categories="{{$categories}}"></masonry-shop>--}}
+<masonry-img :categories="{{$categories}}"></masonry-img>
 @endsection

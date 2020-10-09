@@ -1,19 +1,11 @@
 <template>
-<!--    <masonry-->
-<!--        :cols="{default: 4, 1000: 3, 700: 2, 400: 1}"-->
-<!--        :gutter="{default: '30px', 700: '20px'}"-->
-<!--    >-->
-<!--        <div v-for="category in categories" >-->
-<!--         <div class="item">{{category.name}}</div>-->
-<!--            <div class="item">{{category.code}}</div>-->
-<!--        </div>-->
-<!--    </masonry>-->
     <table>
         <tr class="row">
             <div class="product-item" v-for="category in categories" >
                 <td><img class="displayed" src="https://xn--80aklk6at.xn--j1amh/image/cache/catalog/mytech/img/news-blog/bytovaya-tehnika/bytovaya-tehnika-jeto-produkcija-desjatkov-izvestnyh-kompanij/bytovaya-tehnika-jeto-produkcija-desjatkov-izvestnyh-kompanij-800x600.jpg"></td>
                 <div class="product-list">
                     <th class="item col-sm">{{category.name}}</th>
+                    <th class="item col-sm">Категория: {{category.code}}</th>
                     <td class="price col-sm">{{category.price}} грн</td>
                     <td><a href="" class="button">В корзину</a></td>
                 </div>

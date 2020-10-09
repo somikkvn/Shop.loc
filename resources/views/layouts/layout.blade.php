@@ -31,8 +31,8 @@
            @yield('main_content')
     </div>
 </div>
-    <script src="https://unpkg.com/vue-masonry-css"></script>
-    <script src="{{ asset('js/app.js') }}" defer></script>
+
+<script src="{{ asset('js/app.js') }}" defer></script>
 </body>
 </html>
 

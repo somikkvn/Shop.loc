@@ -23,5 +23,10 @@
         "vue": "^2.5.17",
         "vue-masonry-css": "^1.0.3",
         "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "vue-masonry-gallery": "^1.1.1",
+        "vue-masonry-wall": "^0.2.5",
+        "vue-no-ssr": "^1.1.1"
     }
 }

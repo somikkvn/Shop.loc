@@ -1,0 +1,155 @@
+// variables
+
+$font-stack-sans-serif: Roboto, Helvetica, Arial, sans-serif;
+$font-stack-serif: "Roboto Slab", Times, "Times New Roman", serif;
+$color: #333;
+
+
+
+// mixins
+
+@mixin box-sizing {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+// resets
+
+html, body {
+    height: 100%;
+}
+
+html {
+    @include box-sizing;
+}
+*, *:before, *:after {
+    @include box-sizing;
+}
+
+body {
+    padding: 2em;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #eee;
+    font-family: $font-stack-sans-serif;
+    color: $color;
+}
+
+/* h1 */
+h1 {
+    line-height: 1.25;
+    font-family: $font-stack-serif;
+    font-size: 2em;
+}
+
+/* anchor links */
+a {
+    text-decoration: none;
+    color: coral;
+    &:hover,
+    &:active {
+        text-decoration: underline;
+    }
+    &:visited {
+        color: purple;
+    }
+}
+
+/* img */
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    vertical-align: middle;
+    font-style: italic;
+}
+
+
+
+// modules
+
+/* font awesome */
+.fa {
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+
+
+// styles
+
+/* styles */
+.product {
+    max-width: 50ch;
+    padding: 2em;
+    border-radius: 5px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    text-align: center;
+    transition: box-shadow 200ms ease-in-out;
+    &:hover {
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,.4);
+        & .product-lower {
+            position: relative;
+            top: 0;
+            opacity: 1;
+        }
+        & .product-short-description,
+        & .product-atc {
+            display: block;
+        }
+    }
+}
+.product-rrp {
+    line-height: 1;
+    text-decoration: line-through;
+    font-size: .9em;
+    color: lighten($color, 50%);
+}
+.product-price {
+    line-height: 1;
+    font-size: 2em;
+    font-weight: 700;
+}
+.product-lower {
+    top: -5px;
+    opacity: 0;
+    transition: opacity 200ms, top 200ms ease-in-out;
+}
+.product-short-description {
+    display: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: lighten($color, 25%);
+}
+.product-atc {
+    display: none;
+    padding: .5em;
+    background-color: #92011f;
+    font-weight: 700;
+    font-size: 1.4em;
+    color: white;
+    transition: opacity 100ms ease-in-out;
+    &:hover {
+        text-decoration: none;
+        opacity: .6;
+    }
+}
+
+
+
+// media queries
+
+@media only screen and (max-width:520px) {
+    html, body {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:320px) {
+    html, body {
+        font-size: 12px;
+    }
+}
