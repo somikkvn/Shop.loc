@@ -12,14 +12,14 @@
                         <li><a href="/logout">Log Out</a></li>
                     </ul>
                 </li>
-                <li><a href="/" class="submenu-link">All Products</a>
+                <li><a href="/categories" class="submenu-link">All Products</a>
                     <ul class="submenu">
-                        <li><a href="/categories">Categories</a></li>
+                        <li><a href="/categories">All Products</a></li>
+                        <li><a href="/category">Categories</a></li>
                     </ul>
                 </li>
                 <li><a href="about" class="submenu-link">About as</a>
                     <ul class="submenu">
-                        <li><a href="about/history">History</a></li>
                         <li><a href="about/awards">Awards</a></li>
                         <li><a href="about/contact">Contact</a></li>
                     </ul>

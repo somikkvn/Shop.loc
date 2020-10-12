@@ -2203,10 +2203,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     categories: {
@@ -39128,7 +39124,7 @@ var render = function() {
               ? _c("img", {
                   attrs: {
                     src:
-                      "https://filearchive.cnews.ru/img/news/2019/07/26/r604.jpg"
+                      "https://hitech-news.ru/wp-content/uploads/2019/01/320135750_w640_h640_35044044_2.png"
                   }
                 })
               : _vm._e(),
@@ -39137,7 +39133,7 @@ var render = function() {
               ? _c("img", {
                   attrs: {
                     src:
-                      "https://i.allo.ua/media/catalog/product/cache/1/image/2000x2000/af097278c5db4767b0fe9bb92fe21690/g/f/gfvm51xe441.jpg"
+                      "https://i1.rozetka.ua/goods/12931383/103744050_images_12931383852.jpg"
                   }
                 })
               : _vm._e(),
@@ -39152,7 +39148,7 @@ var render = function() {
               ? _c("img", {
                   attrs: {
                     src:
-                      "https://i8.rozetka.ua/goods/16897873/saeco_iperautomatica_10004970_images_16897873238.png"
+                      "https://i8.rozetka.ua/goods/14835264/philips_series_1200_ep1222_00_images_14835264957.jpg"
                   }
                 })
               : _vm._e()
@@ -39423,15 +39419,21 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("li", [
-          _c("a", { staticClass: "submenu-link", attrs: { href: "/" } }, [
-            _vm._v("All Products")
-          ]),
+          _c(
+            "a",
+            { staticClass: "submenu-link", attrs: { href: "/categories" } },
+            [_vm._v("All Products")]
+          ),
           _vm._v(" "),
           _c("ul", { staticClass: "submenu" }, [
             _c("li", [
               _c("a", { attrs: { href: "/categories" } }, [
-                _vm._v("Categories")
+                _vm._v("All Products")
               ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "/category" } }, [_vm._v("Categories")])
             ])
           ])
         ]),
@@ -39442,10 +39444,6 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("ul", { staticClass: "submenu" }, [
-            _c("li", [
-              _c("a", { attrs: { href: "about/history" } }, [_vm._v("History")])
-            ]),
-            _vm._v(" "),
             _c("li", [
               _c("a", { attrs: { href: "about/awards" } }, [_vm._v("Awards")])
             ]),

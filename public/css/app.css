@@ -10989,8 +10989,8 @@ div.filters {
 
 @media (max-width: 1200px) {
   .masonry {
-    -moz-columns: 3;
-         columns: 3;
+    -moz-columns: 2;
+         columns: 2;
   }
 }
 
@@ -10998,6 +10998,13 @@ div.filters {
   .masonry {
     -moz-columns: 2;
          columns: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .masonry {
+    -moz-columns: 1;
+         columns: 1;
   }
 }
 

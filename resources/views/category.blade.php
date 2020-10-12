@@ -5,11 +5,14 @@
 
 @section('main_content')
 
-{{--<navbar-component></navbar-component>--}}
-{{--<massonry-component></massonry-component>--}}
-{{--<masonry></masonry>--}}
+<navbar-component></navbar-component>
 
-<script>
+<h1 align="center">Категории товаров</h1>
 
-</script>
+    @foreach($categoryObject as $category)
+
+        <h1 align="center"><a href="/category/{{$category->code}}">Категория: {{$category->code}}</a></h1>
+
+    @endforeach
+
 @endsection
