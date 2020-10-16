@@ -22,7 +22,8 @@
         "sass-loader": "^7.1.0",
         "vue": "^2.5.17",
         "vue-masonry-css": "^1.0.3",
-        "vue-template-compiler": "^2.6.12"
+        "vue-template-compiler": "^2.6.12",
+        "vuex": "^3.0.1"
     },
     "dependencies": {
         "vue-masonry-gallery": "^1.1.1",

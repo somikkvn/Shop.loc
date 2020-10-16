@@ -1,17 +1,13 @@
 <?php
 
 Route::get('/categories', 'MainController@categories');
-//Route::get('/washmashine/{product}', 'MainController@product');
 
-//Route::get('/categories/{category}', 'MainController@category');
-Route::get('/category/tv', 'MainController@getCategoryTv');
-Route::get('/category/kitchen', 'MainController@getCategoryKitchen');
-Route::get('/category/vacuum', 'MainController@getCategoryVacuum');
-Route::get('/category/coffeemachine', 'MainController@getCategoryCoffee');
+Route::post('/insbasket', 'BasketController@insetInBasket');
 
+Route::post('/delbasket', 'BasketController@delInBasket');
+
+//Route::get('/{items}/{product}', 'MainController@product');
 Route::get('/category', 'MainController@getCategory');
+Route::get('/category/{items}', 'MainController@getItems');
 
-
-
-
-
+Route::get('/basket', 'BasketController@getBasket')->middleware('auth');

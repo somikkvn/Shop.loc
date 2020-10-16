@@ -9,10 +9,14 @@
 
 <h1 align="center">Категории товаров</h1>
 
+<table align="center">
+    <tr>
     @foreach($categoryObject as $category)
-
-        <h1 align="center"><a href="/category/{{$category->code}}">Категория: {{$category->code}}</a></h1>
-
+          <td align="center">
+           <h4><a style="padding: 10px" href="/category/{{$category->code}}"><img src="https://www.david-tec.com/global/media/getacategoriesmigration/thumbnail.png"><br>Категория: {{$category->code}}</a><br></h4>
+        </td>
     @endforeach
+    </tr>
+</table>
 
 @endsection

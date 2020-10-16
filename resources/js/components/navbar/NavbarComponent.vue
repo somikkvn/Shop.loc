@@ -34,7 +34,7 @@
 export default {
     data(){
         return {
-            image: "https://techtoday.in.ua/wp-content/uploads/2019/01/appliance-electronics-industry.jpg"
+            image: "/images/1.jpg"
         }
     }
 };

@@ -1,12 +1,10 @@
 @extends('layouts.layout')
 @section('title')
-    Coffee
+Items
 @endsection
 
 @section('main_content')
-
     <navbar-component></navbar-component>
-
     <masonry-img :categories="{{$categories}}"></masonry-img>
-
 @endsection
+

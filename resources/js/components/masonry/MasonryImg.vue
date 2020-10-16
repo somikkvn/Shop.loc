@@ -1,6 +1,6 @@
 <template>
     <div class="masonry">
-        <div class="grid product" v-for="category in categories">
+        <div class="product" v-for="category in categories">
             <div class="relative">
                 <div>
                     <img v-if="category.code === 'tv'" src="https://hitech-news.ru/wp-content/uploads/2019/01/320135750_w640_h640_35044044_2.png">
@@ -13,7 +13,7 @@
                 <div class="price">{{ category.price }} грн.</div>
             </div>
             <div class="mt-auto">
-                <a class="product-atc"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                <a class="product-atc" @click="showModalMethod(category.id, category.name, 1,category.price)"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
@@ -27,8 +27,31 @@ export default {
             default: []
         }
     },
-    // data()
+    data() {
+        return {
+            showModal: true,
+        }
+    },
+
+    methods: {
+        showModalMethod(id,name,count,price) {
+            axios({
+                method: 'post',
+                url: '/insbasket',
+                data: {
+                    user_id: id,
+                    name: name,
+                    count: count,
+                    price: price,
+                }
+            })
+                .then(res => {
+                console.log(res);
+            });
+        },
+    }
 }
+
 </script>
 
 <style scoped>

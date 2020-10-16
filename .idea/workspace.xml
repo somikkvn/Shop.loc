@@ -19,23 +19,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa0bc6c3-27d6-4920-8d4e-cb44a8c32cad" name="Default Changelist" comment="Shop.loc 09.10.20">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/navbar/NavbarEffect.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/categoryCoffee.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/categoryKitchen.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/categoryTv.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/categoryVacuum.blade.php" afterDir="false" />
+    <list default="true" id="aa0bc6c3-27d6-4920-8d4e-cb44a8c32cad" name="Default Changelist" comment="Shop.loc 11.10.20">
+      <change afterPath="$PROJECT_DIR$/database/factories/BasketFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Categories.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/basket/Basket.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/basket.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/masonry/MasonryImg.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/masonry/MasonryImg.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/masonry/MasonryShop.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/masonry/MasonryShop.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/navbar/NavbarComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/navbar/NavbarComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/shop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/shop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categoryCoffee.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categoryItems.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categoryKitchen.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categoryTv.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categoryVacuum.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +58,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
-        <option value="JavaScript File" />
-        <option value="SCSS File" />
         <option value="CSS File" />
+        <option value="Sass File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -158,18 +168,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LarPro3.loc" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\OpenServer\domains\www\Shop.loc\resources\js\components\masonry" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OpenServer\domains\www\Shop.loc\database\factories" />
+      <recent name="E:\OpenServer\domains\www\Shop.loc\resources\js\components\modal" />
+      <recent name="E:\OpenServer\domains\www\Shop.loc\resources\views\layouts" />
       <recent name="E:\OpenServer\domains\www\Shop.loc\resources\views" />
       <recent name="E:\OpenServer\domains\www\Shop.loc\resources\js\components" />
-      <recent name="E:\OpenServer\domains\www\Shop.loc\database\factories" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OpenServer\domains\www\Shop.loc\resources\views" />
+      <recent name="E:\OpenServer\domains\www\Shop.loc\resources\js\components\masonry" />
     </key>
   </component>
   <component name="RunManager">
@@ -208,6 +222,25 @@
       <workItem from="1602354490938" duration="11322000" />
       <workItem from="1602417080670" duration="805000" />
       <workItem from="1602426827236" duration="1681000" />
+      <workItem from="1602485568159" duration="8647000" />
+      <workItem from="1602494388966" duration="3824000" />
+      <workItem from="1602499418070" duration="14089000" />
+      <workItem from="1602528569852" duration="9568000" />
+      <workItem from="1602572139803" duration="9684000" />
+      <workItem from="1602583246408" duration="2989000" />
+      <workItem from="1602587066605" duration="8712000" />
+      <workItem from="1602596538983" duration="2447000" />
+      <workItem from="1602599096140" duration="2004000" />
+      <workItem from="1602612558081" duration="5879000" />
+      <workItem from="1602623818929" duration="65000" />
+      <workItem from="1602658740958" duration="26601000" />
+      <workItem from="1602692418163" duration="266000" />
+      <workItem from="1602692840828" duration="2900000" />
+      <workItem from="1602704190692" duration="7535000" />
+      <workItem from="1602744602800" duration="26496000" />
+      <workItem from="1602785160196" duration="1680000" />
+      <workItem from="1602787221587" duration="6203000" />
+      <workItem from="1602831368159" duration="399000" />
     </task>
     <task id="LOCAL-00001" summary="Shop.loc 07.10.20">
       <created>1602057839698</created>
@@ -230,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602253719608</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Shop.loc 11.10.20">
+      <created>1602486033609</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602486033609</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,36 +292,45 @@
     <MESSAGE value="Shop.loc 07.10.20" />
     <MESSAGE value="Shop.loc 08.10.20" />
     <MESSAGE value="Shop.loc 09.10.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shop.loc 09.10.20" />
+    <MESSAGE value="Shop.loc 11.10.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shop.loc 11.10.20" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="267" y="19" key="#Inspections" timestamp="1602345401208">
+    <state x="267" y="19" key="#Inspections" timestamp="1602573214335">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1602345401208" />
-    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602080086170">
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1602573214335" />
+    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602684745250">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602080086170" />
-    <state x="310" y="119" key="EditFileWatcherDialog" timestamp="1602246795897">
+    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602684745250" />
+    <state x="310" y="119" key="EditFileWatcherDialog" timestamp="1602591058132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="310" y="119" key="EditFileWatcherDialog/0.0.1280.680@0.0.1280.680" timestamp="1602246795897" />
-    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1602280393251">
+    <state x="310" y="119" key="EditFileWatcherDialog/0.0.1280.680@0.0.1280.680" timestamp="1602591058132" />
+    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1602752312630">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602280393251" />
-    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1602337310311">
+    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602752312630" />
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1602694590436">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1602337310311" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602253740242">
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1602694590436" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602486055367">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602253740242" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602486055367" />
     <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602057505642">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602057505642" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1602664765680">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1602664765680" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602487203786">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602487203786" />
   </component>
 </project>
