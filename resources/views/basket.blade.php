@@ -26,14 +26,15 @@
                    <td>{{$item['name']}}</td>
                    <td>{{$item['price']}}</td>
                    <td>{{$item['count']}}</td>
-                   <td>{{$sum}}</td>
-                   <td><button id="{{$item['user_id']}}" class="btn btn-danger button_basket">Delete</button></td>
-               </div>
+                   <td>{{$item['sum']}}</td>
+                   <td><button id="{{$item['id']}}" class="btn btn-danger button_basket">Delete</button></td>
+                </div>
             @endforeach
             </tbody>
+                <button style="width: 100%" id="{{$item['user_id']}}" class="btn btn-danger button_basket2">Delete All</button>
         </table>
     </div>
-    <div>Итого: <span id="total-cart-summa">{{$sum}}</span> грн.</div>
+    <div><b>Итого: </b><span id="total-cart-summa">{{$sum}}</span> грн.</div>
     <br>
     <button id="order" class="btn btn-info">Оформить заказ</button>
 </div>

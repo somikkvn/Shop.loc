@@ -15,13 +15,11 @@
                 <li><a href="/categories" class="submenu-link">All Products</a>
                     <ul class="submenu">
                         <li><a href="/categories">All Products</a></li>
-                        <li><a href="/category">Categories</a></li>
                     </ul>
                 </li>
-                <li><a href="about" class="submenu-link">About as</a>
+                <li><a href="/category" class="submenu-link">Product categories</a>
                     <ul class="submenu">
-                        <li><a href="about/awards">Awards</a></li>
-                        <li><a href="about/contact">Contact</a></li>
+                        <li><a href="/category">Product categories</a></li>
                     </ul>
                 </li>
                 <li><a href="/basket"><i class="fa fa-shopping-basket" aria-hidden="true"></i><br>Basket</a></li>

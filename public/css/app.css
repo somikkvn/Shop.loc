@@ -11014,17 +11014,6 @@ div.filters {
   position: relative;
 }
 
-.masonry .grid:before {
-  border-radius: 5px;
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
 .masonry .grid img {
   width: 100%;
   border-radius: 5px;
@@ -11219,7 +11208,7 @@ img {
 
 .product-atc:hover {
   text-decoration: none;
-  opacity: 0.6;
+  background-color: #3e0713;
 }
 
 @media only screen and (max-width: 520px) {

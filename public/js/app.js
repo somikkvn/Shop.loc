@@ -2384,8 +2384,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -39195,7 +39193,7 @@ var render = function() {
     "div",
     { staticClass: "masonry" },
     _vm._l(_vm.categories, function(category) {
-      return _c("div", { staticClass: "product" }, [
+      return _c("div", { staticClass: "grid product" }, [
         _c("div", { staticClass: "relative" }, [
           _c("div", [
             category.code === "tv"
@@ -39485,26 +39483,22 @@ var staticRenderFns = [
               _c("a", { attrs: { href: "/categories" } }, [
                 _vm._v("All Products")
               ])
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c("a", { attrs: { href: "/category" } }, [_vm._v("Categories")])
             ])
           ])
         ]),
         _vm._v(" "),
         _c("li", [
-          _c("a", { staticClass: "submenu-link", attrs: { href: "about" } }, [
-            _vm._v("About as")
-          ]),
+          _c(
+            "a",
+            { staticClass: "submenu-link", attrs: { href: "/category" } },
+            [_vm._v("Product categories")]
+          ),
           _vm._v(" "),
           _c("ul", { staticClass: "submenu" }, [
             _c("li", [
-              _c("a", { attrs: { href: "about/awards" } }, [_vm._v("Awards")])
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c("a", { attrs: { href: "about/contact" } }, [_vm._v("Contact")])
+              _c("a", { attrs: { href: "/category" } }, [
+                _vm._v("Product categories")
+              ])
             ])
           ])
         ]),

@@ -135,11 +135,10 @@ img {
     transition: opacity 100ms ease-in-out;
     &:hover {
         text-decoration: none;
-        opacity: .6;
+        background-color: #3e0713;
+        //opacity: .6;
     }
 }
-
-
 
 // media queries
 

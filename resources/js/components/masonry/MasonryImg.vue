@@ -1,6 +1,6 @@
 <template>
     <div class="masonry">
-        <div class="product" v-for="category in categories">
+        <div class="grid product" v-for="category in categories">
             <div class="relative">
                 <div>
                     <img v-if="category.code === 'tv'" src="https://hitech-news.ru/wp-content/uploads/2019/01/320135750_w640_h640_35044044_2.png">

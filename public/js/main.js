@@ -6,34 +6,31 @@ $(document).ready (function() {
         method: 'post',
         url: '/delbasket',
         data: {
-            user_id: id,
+            id: id,
         }
     })
         .then(res => {
+        window.location.href = '/basket';
         console.log(res); // Результат ответа от сервера
         });
-})
+    })
+
+    $('button.button_basket2').click(function (){
+        let id = $(this).attr('id');
+        console.log(id);
+        axios({
+            method: 'post',
+            url: '/delbasketall',
+            data: {
+                user_id: id,
+            }
+        })
+            .then(res => {
+                window.location.href = '/basket2';
+                console.log(res); // Результат ответа от сервера
+        });
+    })
 });
-
-
-// $(document).ready (function() {
-//     document.getElementById('del').onclick = function() {
-//             axios({
-//                 method: 'get',
-//                 url: '/delbasket',
-//                 data: {
-//                     user_id: id,
-//                     name: name,
-//                     count: count,
-//                     price: price,
-//                 }
-//             })
-//                 .then(res => {
-//                     console.log(res);
-//                 })
-//     }
-// })
-
 
 // $("del").click(function() {
 //     let index = $(this).data("id")
