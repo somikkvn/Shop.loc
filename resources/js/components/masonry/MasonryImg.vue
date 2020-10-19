@@ -43,6 +43,7 @@ export default {
                     name: name,
                     count: count,
                     price: price,
+                    product_id: id,
                 }
             })
                 .then(res => {

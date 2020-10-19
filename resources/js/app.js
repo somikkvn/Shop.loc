@@ -8,7 +8,7 @@ Vue.component('masonry', require('./components/masonry/Masonry.vue').default);
 Vue.component('masonry-shop', require('./components/masonry/MasonryShop.vue').default);
 Vue.component('masonry-img', require('./components/masonry/MasonryImg.vue').default);
 Vue.component('categories', require('./components/Categories').default);
-
+Vue.component('cart', require('./components/cart/Cart.vue').default);
 const app = new Vue({
     el: '#app',
 });

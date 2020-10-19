@@ -19,19 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa0bc6c3-27d6-4920-8d4e-cb44a8c32cad" name="Default Changelist" comment="Shop.loc 16.10.20">
-      <change afterPath="$PROJECT_DIR$/resources/views/basket2.blade.php" afterDir="false" />
+    <list default="true" id="aa0bc6c3-27d6-4920-8d4e-cb44a8c32cad" name="Default Changelist" comment="Shop.loc 16.10.20 commit2">
+      <change afterPath="$PROJECT_DIR$/resources/views/cart.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/basket/Basket.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/cart/Cart.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/masonry/MasonryImg.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/masonry/MasonryImg.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/navbar/NavbarComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/navbar/NavbarComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/shop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/shop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/basket.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/basket.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/basket.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/basket2.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,16 +166,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\OpenServer\domains\www\Shop.loc\resources\views" />
-      <recent name="E:\OpenServer\domains\www\Shop.loc\resources\js\components\masonry" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\OpenServer\domains\www\Shop.loc\resources\views" />
       <recent name="E:\OpenServer\domains\www\Shop.loc\database\factories" />
       <recent name="E:\OpenServer\domains\www\Shop.loc\resources\js\components\modal" />
       <recent name="E:\OpenServer\domains\www\Shop.loc\resources\views\layouts" />
       <recent name="E:\OpenServer\domains\www\Shop.loc\resources\js\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OpenServer\domains\www\Shop.loc\resources\views" />
+      <recent name="E:\OpenServer\domains\www\Shop.loc\resources\js\components\masonry" />
     </key>
   </component>
   <component name="RunManager">
@@ -229,7 +233,15 @@
       <workItem from="1602785160196" duration="1680000" />
       <workItem from="1602787221587" duration="6203000" />
       <workItem from="1602831368159" duration="1682000" />
-      <workItem from="1602833165948" duration="20345000" />
+      <workItem from="1602833165948" duration="22356000" />
+      <workItem from="1602857297067" duration="2959000" />
+      <workItem from="1602920129758" duration="9633000" />
+      <workItem from="1602941558477" duration="21954000" />
+      <workItem from="1603006777592" duration="2449000" />
+      <workItem from="1603021723648" duration="7880000" />
+      <workItem from="1603040820908" duration="11867000" />
+      <workItem from="1603090546273" duration="28505000" />
+      <workItem from="1603125144042" duration="10072000" />
     </task>
     <task id="LOCAL-00001" summary="Shop.loc 07.10.20">
       <created>1602057839698</created>
@@ -266,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602832022788</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Shop.loc 16.10.20 commit2">
+      <created>1602855211120</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602855211120</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +309,8 @@
     <MESSAGE value="Shop.loc 09.10.20" />
     <MESSAGE value="Shop.loc 11.10.20" />
     <MESSAGE value="Shop.loc 16.10.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shop.loc 16.10.20" />
+    <MESSAGE value="Shop.loc 16.10.20 commit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shop.loc 16.10.20 commit2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1602573214335">
@@ -305,26 +325,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="310" y="119" key="EditFileWatcherDialog/0.0.1280.680@0.0.1280.680" timestamp="1602591058132" />
-    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1602847700188">
+    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1603126694823">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602847700188" />
+    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603126694823" />
     <state x="477" y="264" key="NewPhpFileDialog" timestamp="1602694590436">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1602694590436" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602832196119">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602855229864">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602832196119" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602855229864" />
     <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602057505642">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602057505642" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1602664765680">
+    <state x="297" y="151" key="run.anything.popup" timestamp="1603025489269">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1602664765680" />
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1603025489269" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602487203786">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

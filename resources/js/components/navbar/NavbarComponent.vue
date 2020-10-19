@@ -22,7 +22,7 @@
                         <li><a href="/category">Product categories</a></li>
                     </ul>
                 </li>
-                <li><a href="/basket"><i class="fa fa-shopping-basket" aria-hidden="true"></i><br>Basket</a></li>
+                <li><a href="/cart"><i class="fa fa-shopping-basket" aria-hidden="true"></i><br>Basket</a></li>
                 </ul>
         </nav>
     </header>

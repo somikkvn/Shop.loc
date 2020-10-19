@@ -13,7 +13,8 @@
     <tr>
     @foreach($categoryObject as $category)
           <td align="center">
-           <h4><a style="padding: 10px" href="/category/{{$category->code}}"><img src="https://www.david-tec.com/global/media/getacategoriesmigration/thumbnail.png"><br>Category: {{$category->code}}</a><br></h4>
+           <a style="padding: 10px" href="/category/{{$category->code}}">
+           <img src="https://www.david-tec.com/global/media/getacategoriesmigration/thumbnail.png"><h4>Category: {{$category->code}}</h4></a>
         </td>
     @endforeach
     </tr>
