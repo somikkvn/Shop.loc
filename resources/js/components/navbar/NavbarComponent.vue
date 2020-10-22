@@ -1,8 +1,6 @@
 <template>
     <header style="text-align: center" class="gradiant my-3">
-        <div class="logo" :style="{ 'background-image': 'url(' + image + ')' }">
-
-        </div>
+        <div class="logo" :style="{ 'background-image': 'url(' + image + ')' }"></div>
         <nav>
             <ul class="topmenu">
                 <li><a href="/home" class="submenu-link">Home</a>
@@ -23,14 +21,14 @@
                     </ul>
                 </li>
                 <li><a href="/cart"><i class="fa fa-shopping-basket" aria-hidden="true"></i><br>Basket</a></li>
-                </ul>
+            </ul>
         </nav>
     </header>
 </template>
 
 <script>
 export default {
-    data(){
+    data() {
         return {
             image: "/images/1.jpg"
         }
@@ -39,7 +37,10 @@ export default {
 </script>
 
 <style scoped>
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background: #f2f2f2;
@@ -51,6 +52,7 @@ header a {
     outline: none;
     transition: .3s ease-in-out;
 }
+
 .logo {
     height: 200px;
     color: #D5B45B;
@@ -58,26 +60,31 @@ header a {
     font-size: 2.5em;
     padding: 50px 0;
 }
+
 nav {
     display: table;
     margin: 0 auto;
 }
+
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .topmenu:after {
     content: "";
     display: table;
     clear: both;
 }
+
 .topmenu > li {
     width: 25%;
     float: left;
     position: relative;
     font-family: 'Open Sans', sans-serif;
 }
+
 .topmenu > li > a {
     text-transform: uppercase;
     font-size: 14px;
@@ -85,13 +92,18 @@ nav ul {
     color: #404040;
     padding: 15px 30px;
 }
-.topmenu li a:hover {color: #D5B45B;}
+
+.topmenu li a:hover {
+    color: #D5B45B;
+}
+
 .submenu-link:after {
     content: "\f107";
     font-family: "FontAwesome";
     color: inherit;
     margin-left: 10px;
 }
+
 .submenu {
     background: #273037;
     position: absolute;
@@ -101,17 +113,22 @@ nav ul {
     width: 180px;
     opacity: 0;
     transform: scaleY(0);
-    transform-origin :0 0;
+    transform-origin: 0 0;
     transition: .5s ease-in-out;
 }
+
 .submenu a {
     color: white;
     text-align: left;
     padding: 12px 15px;
     font-size: 13px;
-    border-bottom: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
-.submenu li:last-child a {border-bottom: none;}
+
+.submenu li:last-child a {
+    border-bottom: none;
+}
+
 .topmenu > li:hover .submenu {
     opacity: 1;
     transform: scaleY(1);

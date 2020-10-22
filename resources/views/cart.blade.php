@@ -1,4 +1,5 @@
 @extends('layouts.layout')
+
 @section('title')
     Cart
 @endsection
@@ -10,6 +11,3 @@
 
 @endsection
 
-@section('main_content2')
-{{--123--}}
-@endsection

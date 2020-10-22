@@ -26,8 +26,10 @@
         "vuex": "^3.0.1"
     },
     "dependencies": {
+        "sweetalert2": "^10.6.1",
         "vue-masonry-gallery": "^1.1.1",
         "vue-masonry-wall": "^0.2.5",
-        "vue-no-ssr": "^1.1.1"
+        "vue-no-ssr": "^1.1.1",
+        "vue-sweetalert2": "^4.0.0"
     }
 }

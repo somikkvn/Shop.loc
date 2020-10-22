@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Factory;
 $factory->define(Basket::class, function (Faker $faker) {
     return array(
         'user_id' => $faker->numberBetween(0, 0),
-        'name' =>  $faker->name,
+        'name' => $faker->name,
         'count' => $faker->numberBetween(0, 1000),
         'price' => $faker->randomFloat(2, 999, 50000),
     );

@@ -19,24 +19,53 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa0bc6c3-27d6-4920-8d4e-cb44a8c32cad" name="Default Changelist" comment="Shop.loc 16.10.20 commit2">
-      <change afterPath="$PROJECT_DIR$/resources/views/cart.blade.php" afterDir="false" />
+    <list default="true" id="aa0bc6c3-27d6-4920-8d4e-cb44a8c32cad" name="Default Changelist" comment="Shop.loc 19.10.20">
+      <change afterPath="$PROJECT_DIR$/resources/sass/checkout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/stripe.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Shop.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shop.loc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/BasketFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BasketFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CategoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CategoryFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/basket/Basket.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/cart/Cart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Categories.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/cart/Cart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/cart/Cart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/masonry/Masonry.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/masonry/MasonryImg.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/masonry/MasonryImg.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/masonry/MasonryShop.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/masonry/MasonryShop.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/masonry/MassonryComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/masonry/MassonryComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/navbar/NavbarComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/navbar/NavbarComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/navbar/NavbarEffect.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/basket.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/basket2.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/shop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/shop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cart.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categoryItems.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categoryItems.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +81,10 @@
       <list>
         <option value="CSS File" />
         <option value="Sass File" />
+        <option value="Vue Single File Component" />
+        <option value="HTML File" />
         <option value="SCSS File" />
         <option value="JavaScript File" />
-        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -149,6 +179,14 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/cartalyst/stripe" />
+      <path value="$PROJECT_DIR$/vendor/cartalyst/stripe-laravel" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iXcH6JTMRKzXMiepawnWXv152R" />
@@ -158,12 +196,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LarPro3.loc" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -241,7 +281,14 @@
       <workItem from="1603021723648" duration="7880000" />
       <workItem from="1603040820908" duration="11867000" />
       <workItem from="1603090546273" duration="28505000" />
-      <workItem from="1603125144042" duration="10072000" />
+      <workItem from="1603125144042" duration="10611000" />
+      <workItem from="1603176979427" duration="23100000" />
+      <workItem from="1603220586340" duration="3532000" />
+      <workItem from="1603263458391" duration="27636000" />
+      <workItem from="1603297604263" duration="10791000" />
+      <workItem from="1603349875090" duration="20965000" />
+      <workItem from="1603371956584" duration="6745000" />
+      <workItem from="1603392029137" duration="3153000" />
     </task>
     <task id="LOCAL-00001" summary="Shop.loc 07.10.20">
       <created>1602057839698</created>
@@ -285,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602855211120</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Shop.loc 19.10.20">
+      <created>1603137293926</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603137293926</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,33 +364,50 @@
     <MESSAGE value="Shop.loc 11.10.20" />
     <MESSAGE value="Shop.loc 16.10.20" />
     <MESSAGE value="Shop.loc 16.10.20 commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shop.loc 16.10.20 commit2" />
+    <MESSAGE value="Shop.loc 19.10.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shop.loc 19.10.20" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="267" y="19" key="#Inspections" timestamp="1602573214335">
+    <state x="267" y="19" key="#Inspections" timestamp="1603364157716">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1602573214335" />
-    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602684745250">
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1603364157716" />
+    <state x="22" y="182" key="#SQL_Dialects" timestamp="1603272915417">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602684745250" />
+    <state x="22" y="182" key="#SQL_Dialects/0.0.1280.680@0.0.1280.680" timestamp="1603272915417" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603273383526">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1603273383526" />
+    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603362437129">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1603362437129" />
     <state x="310" y="119" key="EditFileWatcherDialog" timestamp="1602591058132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="310" y="119" key="EditFileWatcherDialog/0.0.1280.680@0.0.1280.680" timestamp="1602591058132" />
-    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1603126694823">
+    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1603373266440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603126694823" />
-    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1602694590436">
+    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603373266440" />
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1603201775867">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1602694590436" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602855229864">
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1603201775867" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1603392246340">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602855229864" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603392246340" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603137323139">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603137323139" />
+    <state x="348" y="73" width="585" height="558" key="find.popup" timestamp="1603393540434">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="73" width="585" height="558" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1603393540434" />
     <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602057505642">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -345,9 +416,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1603025489269" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602487203786">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603394152359">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602487203786" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603394152359" />
   </component>
 </project>
